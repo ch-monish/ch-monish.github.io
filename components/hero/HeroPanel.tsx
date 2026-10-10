@@ -191,8 +191,7 @@ export function HeroPanel({ onPaletteSelect }: { onPaletteSelect: (paletteId: Si
         />
       </div>
       <HeroContentLens panelRef={panelRef} interaction={sceneInteractionRef.current} />
-      <p className="scene-hint scene-hint-fine">Drag to orbit · scroll to zoom · click a form to recolor</p>
-      <p className="scene-hint scene-hint-coarse">Tap a form to recolor the site</p>
+    
     </div>
   );
 }
